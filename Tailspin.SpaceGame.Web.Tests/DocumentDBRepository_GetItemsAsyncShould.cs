@@ -32,7 +32,7 @@ namespace Tests
         public void FetchOnlyRequestedGameRegion(string gameRegion)
         {
             const int PAGE = 0; // take the first page of results
-            const int MAX_RESULTS = 9; // sample up to 10 results
+            const int MAX_RESULTS = 10; // sample up to 10 results
 
             // Form the query predicate.
             // This expression selects all scores for the provided game region.
